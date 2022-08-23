@@ -1,6 +1,25 @@
 {{ define "main" }}
-  <main class="mx-auto px-4 py-24 bg-gray-100">
-    <h1>Welcome to Hugo with Tailwind CSS</h1>
-    <div class="text-gray-500">This is an example site with Tailwind CSS 2</div>
-  </main>
+  <div class="bg-gray-200 min-h-screen">
+    <main class="pt-32 pb-10 mx-auto"
+          style="max-width: 600px">
+      <h1 class="m-0">Welcome to <a href="https://eclipse-pass.org">Eclipse-PASS.org</a></h1>
+      <div class="text-gray-500 pt-4">
+        <p>
+          The
+          <a class="text-sky-500 underline"
+             href="https://projects.eclipse.org/projects/technology.pass"
+             target="_blank">Eclipse Public Access Submission System (PASS)</a>
+          is a platform to assist researchers in complying
+          with the access policies of their funders and institutions.
+        </p>
+
+        <p>The application code is available at
+          <a class="text-sky-500 underline"
+             href="https://github.com/eclipse-pass"
+             target="_blank">github.com/eclipse-pass</a>
+          </p>
+      </div>
+      {{ partial "footer.html" . }}
+    </main>
+  </div>
 {{ end }}
