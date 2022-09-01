@@ -12,7 +12,7 @@
 -->
 
 {{ partial "collapsible-menu.html" . }}
-<main>
+<main style="margin-top: 20px">
   <div class="{{- .Params.container | default .Site.Params.container | default "container"}}">
     {{ if ne .Page.Params.hide_sidebar true }}
       <div class="row">
