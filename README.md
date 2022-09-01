@@ -1,4 +1,3 @@
-
 ![Eclipse-pass.org homepage](/assets/docs/homepage.png)
 
 ## Development

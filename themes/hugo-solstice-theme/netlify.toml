@@ -1,0 +1,18 @@
+[build]
+  command = "npm run build && hugo --gc --minify -b $URL --themesDir ../../ --source exampleSite"
+  publish = "exampleSite/public"
+
+[build.environment]
+  HUGO_THEME = "repo"
+  HUGO_VERSION = "0.76.5"
+  HUGO_ENABLEGITINFO = "true"
+  NODE_VERSION = "12.18.3"
+
+[context.production.environment]
+  HUGO_ENV = "production"
+
+[context.deploy-preview]
+  command = "npm run build && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL --themesDir ../../ --source exampleSite"
+
+[context.branch-deploy]
+  command = "npm run build && hugo --gc --minify -b $DEPLOY_PRIME_URL --themesDir ../../ --source exampleSite"
