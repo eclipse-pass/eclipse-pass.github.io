@@ -3,8 +3,13 @@
 
 ## URL
 
-This is currently setup as [aforward.github.io](https://aforward.github.io)
-but will move to `eclipse-pass.github.io` within [PASS ORG](https://github.com/eclipse-pass).
+This repo is available at the following URLs.
+
+* [eclipse-pass.github.io](https://eclipse-pass.github.io) - Underlying GitHub URL
+* [eclipse-pass.org](https://eclipse-pass.org) - Public URL via CNAME record
+* [eclipsepass.org](https://eclipsepass.org) - Public URL via CNAME record
+
+The CNAME records might not ready yet for the eclipse-pass.org sites.
 
 ## Local Development
 
