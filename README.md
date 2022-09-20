@@ -9,7 +9,7 @@ This repo is available at the following URLs.
 * [eclipse-pass.org](https://eclipse-pass.org) - Public URL via CNAME record
 * [eclipsepass.org](https://eclipsepass.org) - Public URL via CNAME record
 
-The CNAME records might not ready yet for the eclipse-pass.org sites.
+The CNAME records might not be ready for the eclipse-pass.org sites.
 
 ## Local Development
 
