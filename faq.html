@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link integrity="" rel="stylesheet" href="assets/pass-ember.css">
   <link rel="stylesheet" href="assets/branding.css">
+  <link rel="stylesheet" href="assets/branding-overrides.css">
 </head>
 
 <body data-gr-c-s-loaded="true" class="ember-application">
@@ -51,6 +52,7 @@
                           <li class="nav-item"><a href="demo.html" class="nav-link ember-view">Demo</a></li>
                           <li class="nav-item"><a href="contact.html" class="nav-link ember-view">Contact</a></li>
                           <li class="nav-item"><a href="faq.html" class="nav-link active ember-view">FAQ</a></li>
+                          <li class="nav-item"><a href="resources.html" class="nav-link ember-view">Resources</a></li>
                         </ul>
                       </div>
                     </div>
@@ -61,7 +63,8 @@
           </div>
         </div>
         <div class="container site-content">
-        <style>.faq-content h3 {
+        <style>
+          .faq-content h3 {
             padding-top:10px;
             font-weight:bold;
             font-size: 1.2rem!important;
@@ -97,7 +100,7 @@
             <a id="who-can-use" class="who-can-use-pass"></a>
             <h3>Who can use PASS?</h3>
             <p>
-              PASS is designed to be used by any organization needing to meet public access policy requirements. The Eclipse Foundation intends to deploy a public multi-tenant instance for general use. In addition, the PASS open source project is designed to be deployable by any organization that wants to run their own instance. Currently, while PASS is under active development, The Eclipse Foundation has a demo instance deployed at <a href="index.html">demo.eclipse-pass.org</a>.
+              PASS is designed to be used by any organization needing to meet public access policy requirements. The Eclipse Foundation intends to deploy a public multi-tenant instance for general use. In addition, the PASS open source project is designed to be deployable by any organization that wants to run their own instance. Currently, while PASS is under active development, The Eclipse Foundation has a demo instance deployed at <a href="https://demo.eclipse-pass.org">demo.eclipse-pass.org</a>.
             </p>
           </section>
           <section>
@@ -196,7 +199,7 @@
             <p>
               Records of prior NIH submissions displayed in PASS go back to January 2013. Each night, updated Submission information is loaded into PASS from the NIH Manuscript Submission system (NIHMS).
               This information contains the public access compliance status of articles associated with NIH grants. If you are a PI on an NIH grant and have articles that are associated with those grants in
-              PubMed, you may see the following on <a href="index.html" class="ember-view">your Submissions page</a>:
+              PubMed, you may see the following on <a href="/app/submissions" class="ember-view">your Submissions page</a>:
             </p>
             <ul>
               <li>Information about completed or in-progress Submissions, some of which may have been initiated outside of PASS. No action is required for these Submissions.</li>
@@ -206,7 +209,7 @@
               </li>
             </ul>
             <p>
-              The information for these submissions comes directly from NIH. 
+              The information for these submissions comes directly from NIH.
             </p>
           </section>
           <section>
@@ -215,14 +218,14 @@
             <p>
               Many journals make allowances for self-archiving and compliance with access policies implemented by a funder or institution. You can look up many publishers’ policies for copyright and
               self-archiving on the <a href="http://www.sherpa.ac.uk/romeo/index.php" target="_blank">SHERPA/RoMEO website</a>. If a journal does not allow open sharing of your article, you may be able
-              to negotiate with them to make an exception. 
+              to negotiate with them to make an exception.
             </p>
           </section>
           <section>
             <h3 id="how-does-unpaywall-help">What if I can’t find my author’s accepted manuscript, and how does Unpaywall help?</h3>
             <p>
-              Once you are in PASS and on the file upload screen, you may receive a notice that PASS has found an open access copy of your research. PASS will retrieve existing open access copies 
-              of your manuscript that you can choose rather than uploading your own copy. You must either select the manuscript found or upload your own version of the file to proceed, but please 
+              Once you are in PASS and on the file upload screen, you may receive a notice that PASS has found an open access copy of your research. PASS will retrieve existing open access copies
+              of your manuscript that you can choose rather than uploading your own copy. You must either select the manuscript found or upload your own version of the file to proceed, but please
               do not do both.
             </p>
             <p>
@@ -232,7 +235,7 @@
           <section>
             <h3 id="can-i-submit-this-version">What is an author’s accepted manuscript, and how do I know whether I can submit this version?</h3>
             <p>
-              An author’s accepted manuscript is the peer-reviewed version of the manuscript, accepted for publication by the journal. 
+              An author’s accepted manuscript is the peer-reviewed version of the manuscript, accepted for publication by the journal.
             </p>
             <p>
               Check <a href="http://www.sherpa.ac.uk/romeo/search.php" target="_blank">SHERPA/RoMEO</a> to determine whether you can submit the author’s accepted manuscript or the publisher’s PDF to open access repositories.

@@ -10371,7 +10371,7 @@ base-chart.chart {
     padding: 0.5rem 1rem;
     margin-right: 0;
     background-color: transparent;
-    background-image: url("../404.html");
+    background-image: url("../img/logo.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 70px auto;
@@ -10463,7 +10463,7 @@ base-chart.chart {
   .brand-minimized .app-header.navbar .navbar-brand {
     width: 50px;
     background-color: #fff;
-    background-image: url("../404.html");
+    background-image: url("../img/logo-symbol.png");
     background-size: 24px;
     border-bottom: 1px solid #a4b7c1; } }
 
